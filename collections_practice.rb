@@ -15,8 +15,8 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(swap)
-  array[1], array[2] = array[2], array[1]
-  array
+  swap[1], swap[2] = swap[2], swap[1]
+  swap
 end
 
 def reverse_array(array)
@@ -31,8 +31,8 @@ def kesha_maker(kesha)
   end
 end
 
-def find_a(find)
-  find.find_all do |item|
+def find_a(search)
+  search.find_all do |item|
     word[0] == "a"
   end
 end
