@@ -32,7 +32,7 @@ def kesha_maker(kesha)
 end
 
 def find_a(search)
-  search.find_all do |item|
+  search.find_all do |word|
     word[0] == "a"
   end
 end
