@@ -4,13 +4,13 @@ end
 
 def sort_array_desc(ints)
   ints.sort do |left, right|
-    right <==> left
+    right <=> left
   end
 end
 
 def sort_array_char_count(strings)
   strings.sort do |short, long|
-    short.length <==> long.length
+    short.length <=> long.length
   end
 end
 
